@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="default.css">
     <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@200&family=Redressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link id='theme_style' rel="stylesheet" type="text/css" href="">
     <title>My Portfolio</title>
 </head>
 <body>
@@ -35,10 +36,10 @@
                 <div class="right_column">
                     <h5 style='text-align: center;'>Personalize Theme</h5>
                     <div id="theme_options_wrapper">
-                        <div id="light_mode" class="theme_dot"></div>
-                        <div id="blue_mode" class="theme_dot"></div>
-                        <div id="green_mode" class="theme_dot"></div>
-                        <div id="purple_mode" class="theme_dot"></div>
+                        <div data-mode='light' id="light_mode" class="theme_dot"></div>
+                        <div data-mode='blue' id="blue_mode" class="theme_dot"></div>
+                        <div data-mode='green' id="green_mode" class="theme_dot"></div>
+                        <div data-mode='red' id="red_mode" class="theme_dot"></div>
                     </div>
                 </div>
             </div>
@@ -110,5 +111,6 @@
             </form>
         </div>
     </section>
+    <script type='text/javascript' src='javascript.js'></script>
 </body>
 </html>

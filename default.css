@@ -13,6 +13,10 @@ html, body {
     margin: 0;
 }
 
+body * {
+    transition: 0.5s;
+}
+
 h1, h2, h3, h4, h5, h6, strong {
     color: var(--mainText);
     font-family: 'Redressed', cursive;
@@ -128,8 +132,8 @@ h6 { font-size: 16px; }
 #green_mode {
     background-color:green;
 }
-#purple_mode {
-    background-color:purple;
+#red_mode {
+    background-color:maroon;
 }
 .project_wrapper {
     display: grid;
