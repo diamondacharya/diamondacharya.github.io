@@ -137,11 +137,17 @@ h6 { font-size: 16px; }
 #social_icons_wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .social_icon_image {
-    height: 100px;
-    width: 100px;
+    width: 70px;
     margin: 10px;
+}
+#linkedin {
+    height: 60px;
+}
+#github {
+    height: 70px;
 }
 .project_wrapper {
     display: grid;
